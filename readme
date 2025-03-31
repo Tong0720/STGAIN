@@ -1,2 +1,30 @@
-this is for the human intention recognition using context relationships in complex scenes.
-the details of illustrations will be shown soon
+Title: Human Intention Recognition Using Context Relationships in Complex Scenes.
+=====
+This is for the human intention recognition using context relationships in complex scenes.
+We proposed a Spatial Temporal Graph Attention Informer Neural Network.
+The code is executed on dual RTX2080ti for both training and testing. 
+Requirements
+======
+python=3.8
+pytorch=1.1
+scipy=1.1.0
+cypthon
+dill
+transformer
+easydict
+h5py
+opencv
+pandas
+tqdm
+yaml
+pytorch geometric
+torch_scatter-2.0.9-cp38-cp38-linux_x86
+torch_sparse-0.6.12-cp38-cp38-linux_x86_64
+torch_spline_conv-1.2.1-cp38-cp38-linux_x86_64
+
+
+for the Action Genome,it should be find as the below. Additionally, download the file object_bbox_and_relationship_filtersmall.pkl and put it in the dataloader
+|-- action_genome
+    |-- annotations   #gt annotations
+    |-- frames        #sampled frames
+    |-- videos        #original videos
