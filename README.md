@@ -32,6 +32,8 @@ For the Action Genome, the file structure should be organized as follows. Additi
 
 ## Train and Evaluation
 
--The model can be trained by train.py. We trained the model on a dual RTX 2080ti.  
+-Put the Action Genome in the dataloader file.  
+-Run the scene_graph_train to get the graph.   
+-The model can be trained by train.py.   
 -The model can be evaluated by test.py.
 
