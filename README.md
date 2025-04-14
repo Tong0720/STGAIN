@@ -32,6 +32,6 @@ For the Action Genome, the file structure should be organized as follows. Additi
 
 ## Train and Evaluation
 
--The model can be trained by train.py. We trained the model on a dual RTX 2080ti.
+-The model can be trained by train.py. We trained the model on a dual RTX 2080ti.  
 -The model can be evaluated by test.py.
 
