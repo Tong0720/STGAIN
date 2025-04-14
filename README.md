@@ -26,9 +26,9 @@ This repository provides code for human intention recognition using context rela
 For the Action Genome, the file structure should be organized as follows. Additionally, download the file `object_bbox_and_relationship_filtersmall.pkl` and place it in the dataloader. The dataset should look like:
 
 |-- action_genome 
-  |-- annotations  
-  |-- frames  
-  |-- videos 
+    |-- annotations  
+    |-- frames  
+    |-- videos 
 
 ## Train and Evaluation
 
