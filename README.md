@@ -45,10 +45,10 @@ For the objects detection, we use the FasterRCNN (https://github.com/jwyang/fast
 
 If our work is helpful for your research, please cite our publication:
 ```bibtex
-@inproceedings{cong2021spatial,
-  title={Spatial-Temporal Transformer for Dynamic Scene Graph Generation},
-  author={Cong, Yuren and Liao, Wentong and Ackermann, Hanno and Rosenhahn, Bodo and Yang, Michael Ying},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  pages={16372--16382},
-  year={2021}
+@inproceedings{TongSTGAIN,
+  title={Human Intention Recognition Using Context Relationships in Complex Scenes},
+  author={Tong Tong and Rossi Setchi and Yulia Hicks},
+  Journal={Expert Systems with Applications},
+  pages={126147},
+  year={2025}
 }
