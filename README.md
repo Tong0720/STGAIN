@@ -33,7 +33,19 @@ For the [Action Genome] (https://www.actiongenome.org), the file structure shoul
 ## Train and Evaluation
 
 -Put the Action Genome in the dataloader file.  
--Run the scene_graph_train to get the graph.   
+-Run the scene_graph_train to get the graph.    
+-You can convert the object_bbox_and_relationship.pkl to a csv file to check the relationships between humans and objects.  
+-Run dataloader.py to encode the graph for training.
 -The model can be trained by train.py.   
 -The model can be evaluated by test.py.
 
+## Citation
+
+If our work is helpful for your research, please cite our publication:
+@inproceedings{TongSTGAIN,
+  title={Human Intention Recognition Using Context Relationships in Complex Scenes},
+  author={Tong Tong and Rossi Setchi and Yulia Hicks},
+  Journal={Expert Systems with Applications},
+  pages={126147},
+  year={2025}
+}
